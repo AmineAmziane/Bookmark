@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.All{
+  position: absolute;
+  overflow-x: hidden;
+  width: 100%;
+}
+body{
+  width: 100%;
+}
+html, body {
+  overflow-x:hidden;
+  height:100%;
+}
+html{
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  cursor: pointer;
+}
+li{
+  list-style: none;
+  list-style-type: none;
+}
+button:focus,input:focus{
+  outline: none;
+}
+button{
+  border:0;
+}
+.App {
+  width: 80%;
+  max-width: 1920px;
+  height: auto;
+  border:0px solid black;
+  margin: 20px auto;
+}
+

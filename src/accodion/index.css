@@ -1,0 +1,110 @@
+ .acc{
+     width: 100%;
+     height: auto;
+     border-top:1px solid rgba(0,0,0,0.3);
+}
+ .acc:nth-child(5){
+     border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+ .acc_fre{
+     margin: 10em 0 4em 0;
+     width: 100%;
+}
+ .acc button{
+     width: 100%;
+     font-size: 1.25rem;
+     font-family: 'Rubik', sans-serif;
+     background-color: transparent;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     padding: .5em .05em;
+     color: rgba(0,0,0,0.8);
+}
+ .acc button img{
+     padding: .5em;
+}
+ .acc button:last-child{
+     border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+ .acc button:hover p{
+     color: rgba(150,0,0,0.7);
+}
+ button:focus{
+     outline: none;
+}
+ .acc div{
+     overflow:hidden;
+     max-height: 0;
+     font-size: 1rem;
+     font-family: 'Rubik', sans-serif;
+     margin:0;
+     color: rgba(0,0,0,0.7);
+     -webkit-transition: max-height 0.4s ease;
+     -o-transition: max-height 0.4s ease;
+     transition: max-height 0.4s ease;
+     border:0;
+}
+ .acc_body{
+     padding: 1.2em 0em;
+     line-height: 2rem;
+}
+ .acc img{
+     -webkit-transition:all 0.4s ease;
+     -o-transition:all 0.4s ease;
+     transition:all 0.4s ease;
+}
+ .rotateArrow{
+     -webkit-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     transform: rotate(180deg);
+     -webkit-transition:all 0.4s ease;
+     -o-transition:all 0.4s ease;
+     transition:all 0.4s ease;
+     -webkit-filter: hue-rotate(90deg);
+     filter: hue-rotate(90deg);
+}
+ .accordion{
+     width: 50%;
+     margin:6em auto;
+}
+ .accordion .btnA{
+     font-size: .75rem;
+     padding: 1em 2em;
+     color: #fff;
+     background-color: #5365E2;
+     border-radius: 5px;
+     -webkit-box-shadow: 0 4px 5px 1px rgba(0,0,0,0.2);
+     box-shadow: 0 4px 5px 1px rgba(0,0,0,0.2);
+     margin: 4em auto 0;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 500;
+     display: block;
+     -webkit-transition: 0.4s ease;
+     -o-transition: 0.4s ease;
+     transition: 0.4s ease;
+     border:1px solid transparent;
+}
+ .accordion .btnA:hover{
+     background-color: transparent;
+     color: #5365E2;
+     border:1px solid #5365E2;
+}
+ @media all and (max-width: 774px){
+     .accordion{
+         width: 95%;
+         margin:6em auto;
+    }
+}
+ @media all and (min-width: 774px) and (max-width: 992px){
+     .accordion{
+         width: 80%;
+         margin:6em auto;
+    }
+}
